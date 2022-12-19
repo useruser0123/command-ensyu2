@@ -3,7 +3,7 @@ import java.util.Scanner;
   public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
-   
+	for(int i=0; i<2; i++){   
         System.out.print("身長(cm)を入力してください：");
         double height = scanner.nextDouble() / 100;
         System.out.print("体重(kg)を入力してください：");
@@ -13,6 +13,6 @@ import java.util.Scanner;
         double BMI = Double.parseDouble(str);
         System.out.println("あなたのBMIは"+BMI);
 
-    
+	}
   }
 }
